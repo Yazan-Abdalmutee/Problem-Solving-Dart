@@ -1,11 +1,13 @@
 
+import 'package:dsa_in_dart/data_structures/list/stack/stack.dart';
+
 class LookAndSay {
   String lookAndSayUsingRecursion(
     int number,
     String prev,
     String currentValues,
   ) {
-    if (number == 1) {
+    if (number == 1){
       return currentValues;
     }
     int counter = 1;

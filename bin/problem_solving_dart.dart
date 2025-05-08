@@ -1,10 +1,9 @@
-import 'package:problem_solving_dart/huffman_code.dart';
+import 'package:problem_solving_dart/problem_solving/huffman_code.dart';
 import 'package:problem_solving_dart/problem_solving/Strings/anagrams.dart';
-import 'package:problem_solving_dart/problem_solving/Strings/isomophic.dart';
+import 'package:problem_solving_dart/problem_solving/Strings/isomorphic.dart';
 import 'package:problem_solving_dart/problem_solving/Strings/look_and_say.dart';
 import 'package:problem_solving_dart/problem_solving/Strings/substring_search.dart';
 import 'package:problem_solving_dart/problem_solving/ring_buffer.dart';
-
 
 void main() {
   //runHuffmanExample();
@@ -19,8 +18,7 @@ void main() {
 }
 
 void runIsomophicExample() {
-  Isomophic isomophic = Isomophic();
-  print(isomophic.isIsomophic("alm", "goj"));
+  print("alm".isIsomorphicTo("goj"));
 }
 
 void runLookAndSayExample() {
@@ -85,10 +83,6 @@ void runSubStringSearchExample() {
     'All occurrences (built-in): ${substringSearch.allOccurrencesBuiltIn()}',
   );
 }
-
-
-
-
 
 void runHuffmanExample() {
   Map<String, int> frequencies = {'A': 40, 'B': 35, 'C': 20, 'D': 5};

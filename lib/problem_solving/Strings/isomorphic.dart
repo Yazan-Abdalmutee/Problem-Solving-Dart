@@ -1,5 +1,5 @@
-class Isomophic {
-  bool isIsomophic(String a, String b) {
+class Isomorphic {
+  bool isIsomorphic(String a, String b) {
     Map<String, String> map = {};
     Set<String> values = {};
     if (a.length != b.length) return false;

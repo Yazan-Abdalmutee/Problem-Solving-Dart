@@ -1,3 +1,4 @@
+import 'package:problem_solving_dart/problem_solving/Strings/first_letter_to_appear_twice.dart';
 import 'package:problem_solving_dart/problem_solving/huffman_code.dart';
 import 'package:problem_solving_dart/problem_solving/Strings/anagrams.dart';
 import 'package:problem_solving_dart/problem_solving/Strings/isomorphic.dart';
@@ -14,7 +15,8 @@ void main() {
   //lookAndSay(9);
   //lookAndSayIteration(9);
   //runLookAndSayExample();
-  runIsomophicExample();
+  //runIsomophicExample();
+  print("abnbah".getFirstLetterApearsTwice());
 }
 
 void runIsomophicExample() {
